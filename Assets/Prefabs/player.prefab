@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 7336520441338442210}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.4, y: -16.6, z: 0}
-  m_LocalScale: {x: 12.449014, y: 12.449014, z: 12.449014}
+  m_LocalPosition: {x: 18.4, y: -11.373, z: 0}
+  m_LocalScale: {x: 6.119718, y: 5.4801807, z: 5.4801807}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -102,11 +102,9 @@ MonoBehaviour:
   moveSpeed: 30
   weaponPrefab: {fileID: 1093356878570633516, guid: 239c04c3f9e31604fb6e425f2eb86fb4, type: 3}
   missilePrefab: {fileID: 3714495455192602586, guid: 78a81f2d07138ba41b1afa3048f79a5d, type: 3}
-  fireRate1: 2
-  fireRate2: 5
+  fireRate1: 1
+  fireRate2: 2
   experience: 0
-  maxExperience: 10
-  experienceSlider: {fileID: 0}
 --- !u!50 &4073681912436363720
 Rigidbody2D:
   serializedVersion: 4

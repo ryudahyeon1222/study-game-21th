@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
     public float fireRate1 = 1f; // 무기 발사 간격
     public float fireRate2 = 1f;
     public int experience = 0;
-    public int maxExperience = 10;      // 최대 경험치
 
     void Start()
     {
@@ -53,7 +52,6 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("ExpOrb"))
         {
-            // 경험치 구슬을 먹으면 경험치 증가
             experience++;
         }
     }
