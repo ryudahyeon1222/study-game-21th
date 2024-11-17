@@ -14,10 +14,9 @@ public class Missile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // 플레이어의 Transform을 받아옵니다 (PlayerController에서 설정 가능)
         if (player == null)
         {
-            player = GameObject.FindWithTag("Player").transform; // "Player" 태그로 플레이어 찾기
+            player = GameObject.FindWithTag("Player").transform; 
         }
 
         float moveX = Input.GetAxisRaw("Horizontal");
@@ -39,11 +38,11 @@ public class Missile : MonoBehaviour
         // 적과 충돌 시
         if (collision.CompareTag("Enemy"))
         {
-            Destroy(collision.gameObject); // 적 제거
+            Destroy(collision.gameObject);
             num++;
             if (num==2)
             {
-                Destroy(gameObject); // 무기 제거
+                Destroy(gameObject);
             }
         }
     }

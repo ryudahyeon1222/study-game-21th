@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f; // 플레이어 이동 속도
     public GameObject weaponPrefab; // 무기 프리팹
     public GameObject missilePrefab;
-    public float fireRate1 = 0.5f; // 무기 발사 간격
+    public float fireRate1 = 1f; // 무기 발사 간격
     public float fireRate2 = 1f;
     public int experience = 0;
     public int maxExperience = 10;      // 최대 경험치

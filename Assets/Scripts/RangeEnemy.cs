@@ -36,7 +36,6 @@ public class RangeEnemy : MonoBehaviour
     }
 
     float timer = 0;
-    float delay = 1f;
     // Update is called once per frame
     void Update()
     {

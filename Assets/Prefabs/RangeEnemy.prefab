@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1685589495630240443}
   - component: {fileID: 9116110178467337133}
+  - component: {fileID: 7545853036117585284}
   m_Layer: 0
   m_Name: RangeEnemy
   m_TagString: Untagged
@@ -84,3 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7545853036117585284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5148091854432050046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d0fa2b2f801b443924541296859b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  CHECK_DELAY: 1
+  speed: 10
+  enemyweaponPrefab: {fileID: 5924545078232307671, guid: 20e0fa212dbe24e42b4d5caeee5c6fb0, type: 3}
+  state: 0
